@@ -19,3 +19,10 @@ $H_O$ : No difference in average years of education btween those who voted in 20
 
 $H_A$ : There is a difference in the average years of education between those who voted in 2012 and those who did not.
 
+## Graphical summary
+
+```{r}
+plot(EDUC~VOTE12, data=Ourdata)
+```
+
+It appears that the average number of years of education is slightly about the same for both groups.
